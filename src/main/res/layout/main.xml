@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+
+    <ListView
+            android:id="@+id/list_device"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+        <EditText
+                android:id="@+id/edit_room"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="101504201411090518301"/>
+
+        <Button
+                android:id="@+id/btn_join"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="加入"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <Button
+                android:id="@+id/btn_enable_audio"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="禁用音频"/>
+
+        <Button
+                android:id="@+id/btn_enable_video"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="禁用视频"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp">
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:text="ID"
+                android:textSize="12dp"
+                android:textColor="#ffffff"
+                android:gravity="center"/>
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="接收音频"
+                android:textSize="12dp"
+                android:textColor="#ffffff"
+                android:gravity="center"/>
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="接收视频"
+                android:textSize="12dp"
+                android:textColor="#ffffff"
+                android:gravity="center"/>
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="发送音频"
+                android:textSize="12dp"
+                android:textColor="#ffffff"
+                android:gravity="center"/>
+
+        <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="发送视频"
+                android:textSize="12dp"
+                android:textColor="#ffffff"
+                android:gravity="center"/>
+
+    </LinearLayout>
+
+    <ListView
+            android:id="@+id/list_user"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"/>
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2">
+
+        <org.webrtc.apprtc.njtest.WVideoLayout
+                android:id="@+id/lay_videos"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scrollbars="horizontal"/>
+
+    </ScrollView>
+
+</LinearLayout>
+

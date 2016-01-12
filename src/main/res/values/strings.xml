@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CChat</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="account_hint">请输入账号</string>
+    <string name="passwd_hint">请输入密码</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="new_passwd_hint">请输入新密码</string>
+    <string name="confirm_passwd_hint">确认密码</string>
+    <string name="logout">退出登录</string>
+    <string name="setting">设置</string>
+    <string name="button_send">发送</string>
+    <string name="button_pushtotalk">按住说话</string>
+    <string name="attach_picture">图片</string>
+    <string name="attach_take_pic">拍照</string>
+    <string name="attach_file">文件</string>
+    <string name="move_up_to_cancel">手指上滑，取消发送</string>
+    <string name="Send_voice_need_sdcard_support">发送语音需要sdcard支持</string>
+</resources>

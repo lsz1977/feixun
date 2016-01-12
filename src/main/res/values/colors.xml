@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="color_blue">#0099dd</color>
+    <color name="color_blue_press">#B2E0F5</color>
+
+    <color name="color_translucence_black_half">#4D000000</color>
+    <color name="blue">#71bfe5</color>
+    <color name="btn_blue_normal">#1e90ff</color>
+    <color name="btn_blue_pressed">#0066FF</color>
+    <color name="btn_blue_focus">#6699ff</color>
+    <color name="gray_normal">#666667</color>
+</resources>
